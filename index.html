@@ -7,6 +7,17 @@
    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+   <div class="container">
+      <h1>Generate a<br><span>Random password</span></h1>
+      <div class="display">
+          <input type="text" id="password" placeholder="password">
+          <img src="./images/copy.png" alt="copy password image" id="copy" onclick="copyPassword()">
+      </div>
+      <button class="btn" id="generate" onclick="creatPassWord()">
+          <img src="./images/generate.png" alt="Generate Password image">
+          <span>Generate Password</span>
+      </button>
+   </div>
    <script src="./scripts/script.js"></script>
 </body>
 </html>
